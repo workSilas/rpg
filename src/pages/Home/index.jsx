@@ -32,7 +32,7 @@ export default function Home() {
             background="/assets/images/backNaguib.jpeg"
             imagem="/assets/images/personNaguib.png"
             cor="amarelo"
-            nome="BAGUIB"
+            nome="NAGUIB"
           />
         </Link>
         <Link to={"/Home"}>
