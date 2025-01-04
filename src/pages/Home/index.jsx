@@ -24,6 +24,7 @@ export default function Home() {
             background="/assets/images/backBaronnne.jpeg"
             imagem="/assets/images/personBaronne.png"
             cor="verde"
+            nome="BARONNE"
           />
         </Link>
         <Link to={"/Home"}>
@@ -31,6 +32,7 @@ export default function Home() {
             background="/assets/images/backNaguib.jpeg"
             imagem="/assets/images/personNaguib.png"
             cor="amarelo"
+            nome="BAGUIB"
           />
         </Link>
         <Link to={"/Home"}>
@@ -38,6 +40,7 @@ export default function Home() {
             background="/assets/images/backMaltevor.jpg"
             imagem="/assets/images/personMaltevor.png"
             cor="preto"
+            nome="MALTEVOR"
           />
         </Link>
         <Link to={"/Home"}>
@@ -45,6 +48,7 @@ export default function Home() {
             background="/assets/images/backRurik.jpeg"
             imagem="/assets/images/personRurik.png"
             cor="vermelho"
+            nome="RURIK"
           />
         </Link>
       </div>
