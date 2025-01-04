@@ -1,0 +1,32 @@
+.Cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    border-radius: 20px;
+
+    img {
+        width: 15vw;
+    }
+}
+
+#verde:hover {
+    transition: 0.5s;
+    box-shadow: 0 2px 50px #17530f;
+}
+
+#amarelo:hover {
+    transition: 0.5s;
+    box-shadow: 0 2px 50px #8b7f13;
+}
+
+#vermelho:hover {
+    transition: 0.5s;
+    box-shadow: 0 2px 50px #990f0f;
+}
+
+#preto:hover {
+    transition: 0.5s;
+    box-shadow: 0 2px 50px #000000;
+}
+

@@ -1,11 +1,53 @@
+import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import Nav from '../../components/Nav';
+import Cards from '../../components/Cards';
 import './index.scss';
 
 export default function Home() {
+
+  useEffect(() => {
+    document.title = 'RPG | Início';
+  }, [])
+
   return (
     <div className="Home">
-      <h1>Eu te amo!!</h1>
+      <Nav />
+      <div className="introducao">
+        <h1>A qual família você estará</h1>
+        <h2><b style={{ padding: "5px 20px", border: "solid #000 3px", borderRadius: "50px" }}>brindando</b> hoje?</h2>
+      </div>
+
+      <div className="familias">
+        <Link to={"/Home"}>
+          <Cards
+            background="/assets/images/backBaronnne.jpeg"
+            imagem="/assets/images/personBaronne.png"
+            cor="verde"
+          />
+        </Link>
+        <Link to={"/Home"}>
+          <Cards
+            background="/assets/images/backNaguib.jpeg"
+            imagem="/assets/images/personNaguib.png"
+            cor="amarelo"
+          />
+        </Link>
+        <Link to={"/Home"}>
+          <Cards
+            background="/assets/images/backMaltevor.jpg"
+            imagem="/assets/images/personMaltevor.png"
+            cor="preto"
+          />
+        </Link>
+        <Link to={"/Home"}>
+          <Cards
+            background="/assets/images/backRurik.jpeg"
+            imagem="/assets/images/personRurik.png"
+            cor="vermelho"
+          />
+        </Link>
+      </div>
     </div>
   );
 }
-
-
